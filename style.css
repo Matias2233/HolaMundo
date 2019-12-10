@@ -1,41 +1,79 @@
 body{
-    background-color: #FFFF00;
-}
+    background-color: rgba(78, 83, 87, 0.171);
 
-h1{
-    background: blue;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 43%;
-    color: white;
 }
-
-.subtitulo{
-    background: cyan;
-    font-size: 2em;
-    color: darkorchid;
-    padding-left: 35%;
-}
-
 .contenido{
-    background: darkred;
+    background: #f8f7f7;
     height: 150px;
     font-size: 20px;
-    color:white;
+    color:rgb(31, 29, 29);
     padding: 30px;
     text-align: center;
 }
+h1{
+    background: rgb(18, 140, 189);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 37%;
+    color: white;
+    height: 40px;
 
-.imagenes {
-    margin: auto;
-    border: 12px solid yellowgreen;
-    padding: 5%;
+    
+}
+h2{
+    background: rgba(241, 250, 249, 0.993);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    height: auto;
+    padding: 40px;
+
+}
+h3{
+    background: rgb(222, 223, 223);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    height: auto;
+    padding: 40px;
+}
+.subtitulo{
+    background:  rgb(18, 140, 189);
+    font-size: 2em;
+    color: white;
+    padding-left: 35%;
+    height: 150px;
+    text-align: 50%
+}
+.barra{
+    background: rgba(51, 48, 46, 0.952);
+    color: white;
+    padding: 10px;
+}
+.barra ul li{
+    padding: 10px 10px 10px 10px;
+    display: inline;
+}
+
+.barra ul li a{
+    text-decoration: inherit;
+    color: inherit;
+}
+.barra ul{
+    padding-left: 80%;
+}
+.barra div{
+    float: left;
+    font-size: 20px;
+    padding-bottom: 21px;
 }
 
 footer{
-    color: violet;
-    background: cornflowerblue;
+    color: rgb(240, 233, 240);
+    background: rgb(34, 34, 36);
     padding: 5%;
     font-size: 25px;
     text-align: center;
-}
+    height: 04px;}
+    
